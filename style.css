@@ -1,0 +1,118 @@
+/* header*/
+h1{
+ color:coral;
+ font-size: 23px;
+ font-style: bold;
+ text-decoration: none;
+ text-align: center;
+ text-transform: capitalize;
+ text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+/* navigation */
+nav{
+ padding: 5px;
+ margin:5px;
+ text-decoration: none;
+ text-align: center;
+ text-transform: capitalize;
+ font-size: 18px;
+ word-spacing: 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ cursor: pointer;
+}
+
+#home{
+ text-decoration: none;
+ color: #003262;
+}
+/* hover */
+#home:hover{
+ background-color: chartreuse;
+ color: #CD7F32;
+}
+#about{
+ text-decoration: none;
+ color: #003262;
+}
+#about:hover{
+ background-color:chartreuse;
+ color: #CD7F32;
+}
+#service{
+ text-decoration: none;
+ color: #003262;
+}
+#service:hover{
+ background-color:chartreuse;
+ color: #CD7F32;
+}
+/* logo */
+img{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ max-width: 100%;
+ height: auto;
+ margin: auto;
+}
+/* form */
+form{
+ display: block;
+ box-sizing: border-box;
+ padding: 40px;
+ width: 100%;
+ height: 100%;
+ backdrop-filter: brightness(40%);
+ flex-direction: column;
+ display: flex;
+ gap: 5px;
+}
+/* input */
+input{
+ background:#00B9E8 ;
+ height: 40px;
+ line-height: 40px;
+ border-radius: 20px;
+ padding: 0px 20px;
+ border: none;
+ margin-bottom: 20px;
+ 
+}
+/* label */
+label{
+ color:black ;
+ text-transform: uppercase;
+ font-size: 15px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ margin-bottom:5px;
+}
+/* sumbit */
+ button{
+ background: #CD7F32;
+ font-size: 15px;
+ border-radius: 30px;
+ height: 40px;
+ }
+ /* button hover */
+ button:hover{
+  background-color: green;
+  color:black;
+ }
+ /* sign in */
+ #sign{
+  font-size: 15px;
+  font-style: italic;
+ display: flex;
+ justify-content: center;
+  color: black;
+ }
+
+ #log{
+  display: flex;
+  justify-content:center;
+  color: red;
+  font-size: 15px;
+  font-style: italic;
+  }
+  
